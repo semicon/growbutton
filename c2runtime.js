@@ -17695,8 +17695,8 @@ cr.plugins_.Touch = function(runtime)
 	pluginProto.exps = new Exps();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Sprite,
 	cr.plugins_.Touch,
+	cr.plugins_.Sprite,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
 	cr.plugins_.Sprite.prototype.exps.AnimationFrame,
